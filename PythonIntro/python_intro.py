@@ -1,6 +1,6 @@
 # python_intro.py
 """Python Essentials: Introduction to Python.
-<Name>
+<Veronica>
 <Class>
 <Date>
 """
