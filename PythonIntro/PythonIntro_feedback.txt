@@ -1,0 +1,54 @@
+04/25/25 19:52
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (5 points):
+Score += 5
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 5 (5 points):
+Score += 5
+
+Problem 6 (5 points):
+Score += 5
+
+Problem 7 (10 points):
+Score += 10
+
+Problem 8 (5 points):
+Score += 5
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 50/50 = 100.0%
+
+Excellent!
+
+Linter Notes: 
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:14:6: E225 missing whitespace around operator
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:96:10: E111 indentation is not a multiple of 4
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:99:13: E225 missing whitespace around operator
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:117:20: E225 missing whitespace around operator
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:129:32: E225 missing whitespace around operator
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:137:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:141:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:145:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:149:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:150:4: E111 indentation is not a multiple of 4
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:153:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:154:4: E111 indentation is not a multiple of 4
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:157:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:161:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:162:4: E111 indentation is not a multiple of 4
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:165:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:166:4: E111 indentation is not a multiple of 4
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:169:26: E203 whitespace before ':'
+/home/gibsonn/Instructor-Materials/VeronicaChurchill/PythonIntro/python_intro.py:170:4: E111 indentation is not a multiple of 4
+
+
+-------------------------------------------------------------------------------
+
