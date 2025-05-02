@@ -4,3 +4,26 @@ standard_library.py has not been modified yet
 
 -------------------------------------------------------------------------------
 
+05/02/25 22:20
+
+Problem 1 (15 points):
+Score += 15
+
+Problem 2 (15 points):
+Score += 15
+
+Problem 3 (10 points):
+hypot() may only use 'calculator' functions.
+Score += 5
+
+Problem 4 (10 points):
+Score += 10
+
+Total score: 45/50 = 90.0%
+
+Great job!
+
+Linter Notes: None
+
+-------------------------------------------------------------------------------
+
