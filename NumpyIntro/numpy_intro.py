@@ -9,7 +9,7 @@ import numpy as np
 
 def prob1():
     A= np.array([[3, -1, 4],[1, 5, -9]])
-    B= np.array([[[2, 6, -5, 3],[5,-8,9,7], [9,-3,-2,-3]]])
+    B= np.array([[2, 6, -5, 3],[5,-8,9,7], [9,-3,-2,-3]])
     matrixAB= np.dot(A, B)
     return matrixAB
     """ Define the matrices A and B as arrays. Return the matrix product AB. """
@@ -55,13 +55,9 @@ def prob4(A):
         >>> prob4(A)
         array([0, 0, 3])
     """
-    A_copy=A.copy()    
-    rows,cols=A_copy.shape
-    for i in range(rows):
-        for j in range(cols):
-            if A_copy[i, j] < 0:
-                A_copy[i, j] = 0
-    return A_copy
+    A_copy = A.copy()
+    A_copy[A_copy < 0] = 0
+    return A_copy 
     raise NotImplementedError("Problem 4 Incomplete")
 
 
