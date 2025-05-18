@@ -1,8 +1,8 @@
 # object_oriented.py
 """Python Essentials: Object Oriented Programming.
-<Name>
-<Class>
-<Date>
+<Veronica Churchill>
+<420>
+<5/10/2025>
 """
 
 from math import sqrt
@@ -17,22 +17,29 @@ class Backpack:
     """
 
     # Problem 1: Modify __init__() and put(), and write dump().
-    def __init__(self, name):
+    def __init__(self, name, color=None, max_size=5):
         """Set the name and initialize an empty list of contents.
 
         Parameters:
             name (str): the name of the backpack's owner.
         """
         self.name = name
+        self.color= color
+        self.max_size= max_size
         self.contents = []
 
     def put(self, item):
         """Add an item to the backpack's list of contents."""
-        self.contents.append(item)
+        if len(self.contents) >= self.max_size:
+            print("No Room!")
+        else:
+            self.contents.append(item)
 
     def take(self, item):
         """Remove an item from the backpack's list of contents."""
         self.contents.remove(item)
+    def dump(self):
+        self.contents = []
 
     # Magic Methods -----------------------------------------------------------
 
@@ -46,6 +53,20 @@ class Backpack:
         than 'other', return True. Otherwise, return False.
         """
         return len(self.contents) < len(other.contents)
+    
+    def __eq__(self, other):
+        return (
+            self.name == other.name and
+            self.color == other.color and
+            len(self.contents) == len(other.contents))
+    
+    def __str__(self):
+        return (
+            f"Owner:    {self.name}\n"
+            f"Color:    {self.color}\n"
+            f"Size:     {len(self.contents)}\n"
+            f"Max Size: {self.max_size}\n"
+            f"Contents: {self.contents}")
 
 
 # An example of inheritance. You are not required to modify this class.
@@ -97,3 +118,23 @@ class Knapsack(Backpack):
 
 
 # Problem 4: Write a 'ComplexNumber' class.
+
+
+# Tests for problems
+#1 and 3
+def test_backpack():
+    bp = Backpack("Veronica", "blue", 2)
+    print(bp)
+    bp.put("book")
+    bp.put("pen")
+    bp.put("laptop")
+    print(bp)
+    bp.take("pen")
+    print(bp)
+    bp.dump()
+    print(bp)
+
+    bp2 = Backpack("Veronica", "blue", 2)
+    print("Equal?", bp == bp2)  # should be True
+if __name__ == "__main__":
+    test_backpack()
