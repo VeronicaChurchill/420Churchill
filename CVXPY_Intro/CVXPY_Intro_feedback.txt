@@ -4,3 +4,32 @@ cvxpy_intro.py has not been modified yet
 
 -------------------------------------------------------------------------------
 
+06/06/25 22:43
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (10 points):
+Incorrect optimizer
+	Correct response: [-1.5  1.  -0.5]
+	Student response: [-1.5    0.841 -0.364]
+Incorrect optimial value
+	Correct response: -2.4999999999797997
+	Student response: -2.431818181798531
+Score += 0
+
+Problem 5 (10 points):
+Score += 10
+
+Total score: 40/50 = 80.0%
+
+Linter Notes: None
+
+-------------------------------------------------------------------------------
+
